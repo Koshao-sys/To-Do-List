@@ -1,6 +1,5 @@
-/* eslint-disable */
-export class todolist {
-/* eslint-enable */
+/* eslint-disable import/prefer-default-export */
+export class Todolist {
   createlist = () => {
     const books = [{ description: 'Wash the dishes', completed: false, index: 1 }, { description: 'Complete To Do List project', completed: false, index: 2 }];
     const todoHolder = document.querySelector('.todo-list');
