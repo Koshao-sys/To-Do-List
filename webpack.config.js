@@ -1,7 +1,5 @@
 const path = require('path');
-/* eslint-disable */
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-/* eslint-enable */
 
 module.exports = {
   entry: './src/index.js',
@@ -17,7 +15,7 @@ module.exports = {
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/',
+    clean: true,
   },
   module: {
     rules: [
