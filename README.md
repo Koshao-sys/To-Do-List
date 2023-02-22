@@ -93,7 +93,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **To do list array object**
+- **Add To do list array object**
 - **Dynamically created html**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
