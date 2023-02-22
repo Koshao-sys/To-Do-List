@@ -8,47 +8,40 @@ body {
   margin: auto;
 }
 
-.todo-Container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #fff;
-  border-bottom: 1px solid #d6d4d0;
-  padding: 15px 15px;
-}
-
-.todo-Container p {
+.todolists {
+  padding: 0;
   margin: 0;
 }
 
-.addItem-holder {
-  background-color: #fff;
+.input-area {
   display: flex;
+  width: 100%;
   justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #fff;
   border-bottom: 1px solid #d6d4d0;
-  padding: 15px 15px;
 }
 
-.addItem-holder input {
+.input {
   border: none;
 }
 
-.addItem-holder input:focus {
+.input:focus {
   outline: none;
-}
-
-.todo-lists {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #fff;
-  border-bottom: 1px solid #d6d4d0;
-  padding: 15px 15px;
 }
 
 .chk01 {
   display: flex;
-  gap: 15px;
+  list-style: none;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid #d6d4d0;
+  padding: 15px 15px;
+  width: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .todo-lists p {
