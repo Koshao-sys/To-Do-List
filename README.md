@@ -45,11 +45,11 @@ After you're finished please remove all the comments and instructions!
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-  <!--- [Prerequisites](#prerequisites)
+  <!--- [Prerequisites](#prerequisites)-->
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)-->
+  <!--- [Usage](#usage)
+  - [Run tests](#run-tests)-->
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -141,9 +141,9 @@ Example commands:
 ```
 --->
 
-<!--### Install
+### Install
 
-Install this project with:-->
+Install this project with: npm install
 
 <!--
 Example command:
@@ -178,9 +178,9 @@ Example command:
 ```
 --->
 
-<!--### Deployment
+### Deployment
 
-You can deploy this project using:-->
+You can deploy this project using: npm start
 
 <!--
 Example:
@@ -208,8 +208,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add To do List]**
-- [ ] **[Remove To Do List]**
+- [ ] **[Interactive list]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
