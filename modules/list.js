@@ -6,8 +6,17 @@ export class Todolist {
     this.todo = [];
   }
 
+  loadItems = () => {
+    if (localStorage.getItem('todo')) {
+      this.todo = JSON.parse(localStorage.getItem('todo'));
+      this.todo == null ? this.todo = [] : this.todo;
+      this.createlist();
+    }
+  }
+
   addList = (input, ind) => {
     const newList = new Todobject(input, ind);
+    this.todo == null ? this.todo = [] : this.todo;
     this.todo.push(newList);
     localStorage.setItem('todo', JSON.stringify(this.todo));
     this.createlist();

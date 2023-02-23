@@ -4,10 +4,7 @@ import { updateStatus, clearButton, checkboxListeners } from '../modules/status.
 
 const lists = new Todolist();
 
-if (localStorage.getItem('todo')) {
-  lists.todo = JSON.parse(localStorage.getItem('todo'));
-  lists.createlist();
-}
+lists.loadItems();
 
 const inputTodo = document.getElementById('input-todo');
 const enterClick = document.getElementById('enter');
