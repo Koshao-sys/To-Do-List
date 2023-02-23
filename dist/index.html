@@ -6,15 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-do List</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
 <script defer src="/runtime.bundle.js"></script><script defer src="/index.bundle.js"></script></head>
 <body>
     <div class="todo-list">
     <form action="">
-        <ul>
-            <li>
-                <input type="text" placeholder="Add to your list...">
+        <div class="input-area"><input class="input" id="input-todo" type="text" placeholder="Add to your list..."><i class="fa fa-arrow-right" id="enter"></i></div>
+        <ul class="todolists">
+            <!--<li class="chk01">
+                <div class="chk02">
+                    <input type="checkbox">
+                    <label>Eat</label>
+                </div>
+                <i class="fas fa-trash"></i>
             </li>
+            <li class="chk01">
+                <div class="chk02">
+                    <input type="checkbox">
+                    <label>Eat</label>
+                </div>
+                <i class="fa fa-ellipsis-v"></i>
+            </li>-->
         </ul>
+        <button type="submit" class="clear-btn" id="btnadd">Clear all completed</button>
     </form>
     </div>
 </body>

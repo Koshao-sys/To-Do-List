@@ -62,7 +62,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [TO DO LIST] <a name="about-project"></a>
 
-**To do List** is site built with JavaScript, HTML and CSS to show, edit and add to a to do List.
+**To do List** is site built with JavaScript, HTML and CSS to show, remove, edit and add to a to do List.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -95,6 +95,8 @@ After you're finished please remove all the comments and instructions!
 
 - **Add To do list array object**
 - **Dynamically created html**
+- **Remove from the to do list**
+- **Edit teh To do List**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -231,6 +233,7 @@ If you like this project kindly leave me ⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+Big thanks to the minimalist design.
 I would like to thank Microverse for the great learning materials towards building this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
