@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-do List</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
 </head>
 <body>
     <div class="todo-list">
-    <form action="">
-        <div class="input-area"><input class="input" type="text" placeholder="Add to your list..."><i class="fa fa-sync-alt"></i></div>
-        <ul class="todolists"></ul>
-        <button type="submit" class="clear-btn">Clear all completed</button>
-    </form>
+        <div class="head">
+            <h1>Today's To Do</h1>
+            <i class="fa fa-sync-alt"></i>
+        </div>
+        <form action="">
+            <div class="input-area"><input class="input" id="input-todo" type="text" placeholder="Add to your list..."><i class="fa fa-arrow-right" id="enter"></i></div>
+            <ul class="todolists"></ul>
+            <button type="submit" class="clear-btn" id="btnadd">Clear all completed</button>
+        </form>
     </div>
 </body>
 </html>

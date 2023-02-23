@@ -45,11 +45,11 @@ After you're finished please remove all the comments and instructions!
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-  <!--- [Prerequisites](#prerequisites)
+  <!--- [Prerequisites](#prerequisites)-->
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)-->
+  <!--- [Usage](#usage)
+  - [Run tests](#run-tests)-->
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -62,7 +62,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [TO DO LIST] <a name="about-project"></a>
 
-**To do List** is site built with JavaScript, HTML and CSS to show, edit and add to a to do List.
+**To do List** is site built with JavaScript, HTML and CSS to show, remove, edit and add to a to do List.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -95,6 +95,8 @@ After you're finished please remove all the comments and instructions!
 
 - **Add To do list array object**
 - **Dynamically created html**
+- **Remove from the to do list**
+- **Edit teh To do List**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,9 +141,9 @@ Example commands:
 ```
 --->
 
-<!--### Install
+### Install
 
-Install this project with:-->
+Install this project with: npm install
 
 <!--
 Example command:
@@ -176,9 +178,9 @@ Example command:
 ```
 --->
 
-<!--### Deployment
+### Deployment
 
-You can deploy this project using:-->
+You can deploy this project using: npm start
 
 <!--
 Example:
@@ -206,8 +208,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add To do List]**
-- [ ] **[Remove To Do List]**
+- [ ] **[Interactive list]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -231,6 +232,7 @@ If you like this project kindly leave me ⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+Big thanks to the minimalist design.
 I would like to thank Microverse for the great learning materials towards building this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
