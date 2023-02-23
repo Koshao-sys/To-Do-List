@@ -23,7 +23,7 @@ enterClick.addEventListener('click', () => {
 });
 
 const chkBox = document.querySelectorAll('.chk02 input');
-for ( let i = 0; i < chkBox.length; i += 1) {
+for (let i = 0; i < chkBox.length; i += 1) {
   chkBox[i].addEventListener('change', () => {
     const chkStatus = chkBox[i].checked;
     const val = chkBox[i].value;
@@ -31,15 +31,15 @@ for ( let i = 0; i < chkBox.length; i += 1) {
   });
 }
 
-const clearAll  = document.getElementById('btnClear');
+const clearAll = document.getElementById('btnClear');
 clearAll.onclick = () => {
   clearButton();
 };
 
 window.onload = () => {
   lists.todo = JSON.parse(localStorage.getItem('todo'));
-  for ( let i = 0; i < chkBox.length; i += 1) {
+  for (let i = 0; i < chkBox.length; i += 1) {
     lists.todo[i].completed = false;
   }
   localStorage.setItem('todo', JSON.stringify(lists.todo));
-}
+};
