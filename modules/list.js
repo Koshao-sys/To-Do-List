@@ -35,7 +35,7 @@ export class Todolist {
           <input type="checkbox" value="${this.todo[x].index}">
           <label id="${this.todo[x].index}">${this.todo[x].description}</label>
         </div> 
-        <i class="fa fa-ellipsis-v" id="icon-${this.todo[x].index}"></i>
+        <button id="btnDel${this.todo[x].index}"><i class="fa fa-ellipsis-v" id="icon-${this.todo[x].index}"></i></button>
       `;
       todoHolder.appendChild(checkItems);
     }
@@ -57,10 +57,13 @@ export class Todolist {
 
         // replace label with input when clicked
         labels[x].parentNode.replaceChild(inputElement, labels[x]);
-        const num = `icon-${labels[x].id}`;
-        const iconBox = document.getElementById(num);
+        const IcoNum = `icon-${labels[x].id}`;
+        const iconBox = document.getElementById(IcoNum);
         iconBox.classList = ('fas fa-trash');
-        iconBox.onclick = () => {
+
+        const btNum = `btnDel${labels[x].id}`;
+        const btnDel = document.getElementById(btNum);
+        btnDel.onclick = () => {
           li.parentNode.removeChild(li);
           this.deleteList(labels[x].id);
         };

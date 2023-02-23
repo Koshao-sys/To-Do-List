@@ -58,6 +58,11 @@ li {
   box-sizing: border-box;
 }
 
+.chk01 button {
+  border: none;
+  background-color: inherit;
+}
+
 .chk02 {
   width: 100%;
 }
