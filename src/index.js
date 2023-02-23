@@ -11,7 +11,8 @@ if (localStorage.getItem('todo')) {
 
 const inputTodo = document.getElementById('input-todo');
 const enterClick = document.getElementById('enter');
-enterClick.addEventListener('click', () => {
+enterClick.addEventListener('click', (e) => {
+  e.preventDefault();
   if (inputTodo.value) {
     const check = document.querySelectorAll('.chk01');
     let ind = 1;

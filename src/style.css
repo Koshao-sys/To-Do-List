@@ -27,6 +27,13 @@ body {
   font-size: 14px;
 }
 
+#enter {
+  border: none;
+  background-color: inherit;
+  color: #d6d4d0;
+  font-size: 18px;
+}
+
 .input-area {
   display: flex;
   width: 100%;
@@ -45,6 +52,11 @@ body {
 
 .input:focus {
   outline: none;
+}
+
+.input::placeholder {
+  font-style: italic;
+  font-size: 16px;
 }
 
 li {
