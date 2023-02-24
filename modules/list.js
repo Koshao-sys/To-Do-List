@@ -6,8 +6,19 @@ export class Todolist {
     this.todo = [];
   }
 
+  loadItems = () => {
+    if (localStorage.getItem('todo')) {
+      this.todo = JSON.parse(localStorage.getItem('todo'));
+      // eslint-disable-next-line no-unused-expressions
+      this.todo == null ? this.todo = [] : this.todo;
+      this.createlist();
+    }
+  }
+
   addList = (input, ind) => {
     const newList = new Todobject(input, ind);
+    // eslint-disable-next-line no-unused-expressions
+    this.todo == null ? this.todo = [] : this.todo;
     this.todo.push(newList);
     localStorage.setItem('todo', JSON.stringify(this.todo));
     this.createlist();
