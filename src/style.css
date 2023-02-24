@@ -1,11 +1,18 @@
 body {
   background-color: #f7f6f2;
   padding-top: 10%;
+  background-image: url(./images/bg.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .todo-list {
   width: 80%;
   margin: auto;
+  border: 2px solid #9b9a97; 
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.491);
 }
 
 .todolists {
@@ -17,7 +24,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
+  background-color: #efece4;
   border-bottom: 1px solid #d6d4d0;
   padding: 15px;
 }
